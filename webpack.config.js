@@ -6,7 +6,7 @@ var Uglify = webpack.optimize.UglifyJsPlugin;
 module.exports = {
   entry: './lib/index.js',
   output: {
-    filename: isDist ? 'hopcroft.min.js' : 'hopcroft.js',
+    filename: isDist ? 'hopcroftkarp.min.js' : 'hopcroftkarp.js',
     path: './dist',
     library: 'hopcroftCarp',
     libraryTarget: 'umd'

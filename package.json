@@ -1,14 +1,14 @@
 {
-  "name": "hopcroft-carp",
-  "version": "0.0.1",
+  "name": "hopcroft-karp",
+  "version": "0.0.2",
   "description": "Finds a maximum matching of a bipartite graph",
-  "main": "dist/index.js",
+  "main": "dist/hopcroftkarp.js",
   "scripts": {
     "test": "make test",
     "lint": "make lint",
     "build": "make build"
   },
-  "repository": "Tom-Alexander/hopcroft-carp",
+  "repository": "Tom-Alexander/hopcroft-karp",
   "keywords": [
     "Hopcroft-Karp",
     "maximum",

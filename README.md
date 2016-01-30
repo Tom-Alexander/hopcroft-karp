@@ -1,4 +1,7 @@
 # Hopcroft-Karp
+
+[![Build Status](https://travis-ci.org/Tom-Alexander/hopcroft-karp.svg?branch=master)](https://travis-ci.org/Tom-Alexander/hopcroft-karp)
+
 This is an implementation of the Hopcroft-Karp algorithm used in finding the
 maximum matching of a bipartite graph. It is useful for solving problems such
 as task assignment/scheduling.

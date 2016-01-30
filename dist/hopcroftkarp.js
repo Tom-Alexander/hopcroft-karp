@@ -154,7 +154,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-	var DUMMY_VERTEX = exports.DUMMY_VERTEX = 0;
+	var DUMMY_VERTEX = exports.DUMMY_VERTEX = null;
 
 	/**
 	 * returns an object witch has identical values as its keys
