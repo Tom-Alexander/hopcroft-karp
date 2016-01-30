@@ -1,0 +1,25 @@
+{
+  "name": "hopcroft-carp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha spec --compilers js:babel/register",
+    "lint": "eslint ./lib/**",
+    "build": "babel lib --out-file dist/hopcroftcarp.js"
+  },
+  "repository": "Tom-Alexander/hopcroft-carp",
+  "keywords": [],
+  "author": "Tom Alexander <npm@tomalexander.co.nz>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "chai": "^3.5.0",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^4.0.0",
+    "eslint-plugin-react": "^3.16.1",
+    "mocha": "^2.4.5"
+  }
+}

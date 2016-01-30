@@ -1,0 +1,4 @@
+.git*
+example/
+.DS_Store
+spec/
