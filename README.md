@@ -11,19 +11,20 @@ npm install hopcroft-karp
 
 ## Example
 
-The following example optimally assigns users to issues that they are familiar with.
+The following example optimally assigns users to issues that they could be familiar with.
 
 ```javascript
 import hopcroftKarp from 'hopcroft-karp'
 
 const result = hopcroftKarp({
-  '@': ['V0', 'V1'],
-  '@': ['V0', 'V4'],
-  '@': ['V2', 'V3'],
-  '@': ['V0', 'V4'],
-  '@': ['V1', 'V3']
+  'Gustav': ['#35', '#29'],
+  'Hermann': ['#35', '#16'],
+  'Malcolm': ['#41', '#24'],
+  'Abraham': ['#35', '#16'],
+  'Gunther': ['#29', '#24']
 });
 ```
+
 ## License
 
 The MIT License (MIT)

@@ -1,9 +1,9 @@
-build: lint test dev dist
+build: test dev dist
 
 lint:
 	./node_modules/.bin/eslint ./lib/**
 
-test:
+test: lint
 	./node_modules/.bin/mocha spec --compilers js:babel/register
 
 dev:
