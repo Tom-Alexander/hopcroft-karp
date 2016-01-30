@@ -12,9 +12,9 @@ as task assignment/scheduling.
 npm install hopcroft-karp
 ```
 
-## Example
+## Usage
 
-The following example optimally assigns users to issues that they could be familiar with.
+The following example optimally assigns users to issues that they could be familiar with. The result will be an object literal that contains the matched pairs. If a pair is unmatched the vertex will be assigned to `null`.
 
 ```javascript
 import hopcroftKarp from 'hopcroft-karp'
