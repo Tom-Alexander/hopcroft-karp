@@ -4,7 +4,7 @@ lint:
 	./node_modules/.bin/eslint ./lib/**
 
 test: lint
-	./node_modules/.bin/mocha spec --compilers js:babel/register
+	./node_modules/.bin/mocha spec --compilers js:babel-core/register
 
 dev:
 	webpack
